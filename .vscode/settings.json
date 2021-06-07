@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/ab4267db-91d2-4adf-bc2a-3f2b39835991/resourceGroups/AppServiceQS-rg/providers/Microsoft.Web/sites/ILoveKaytlinBoodhram",
+    "appService.deploySubpath": "."
+}
