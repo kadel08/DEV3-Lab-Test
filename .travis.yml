@@ -5,7 +5,7 @@ deploy:
   provider: azure_web_apps
   username: kadel08       # If AZURE_WA_USERNAME isn't set
   password: Elijah@1005   # If AZURE_WA_PASSWORD isn't set
-  site: ILoveKaytlinBoodhram       # If AZURE_WA_SITE isn't set
+  site: ThisIsJustATrial       # If AZURE_WA_SITE isn't set
   on:
     branch: main
       
