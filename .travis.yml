@@ -9,7 +9,7 @@ steps:
   displayName: Azure App Service Deploy
   inputs:
     azureSubscription: 'Azure for Students'
-    appName: 'MyKuduBuddy'
+    appName: 'ThisIsJustATrial'
     package: '$(System.DefaultWorkingDirectory)/**/*.zip')'
     customWebConfig: '-Handler iisnode -NodeStartFile app.js -appType node'
 
