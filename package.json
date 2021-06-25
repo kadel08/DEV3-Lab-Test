@@ -1,16 +1,40 @@
 {
-  "name": "express",
+  "name": "2021-012-project",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "---\r # ELEN4010 Group Project #\r ### Farai Mutsvandiani 1842163 ###\r ### Diana Munyaradzi 1034382 ###\r ### Steven Makoni 1935885 ###\r ### Elijah Yambayamba Kadimba 1870356 ###\r ### Katelyn Boodhram 1911499 ###\r ---",
+  "main": "app.js",
   "scripts": {
-    "test": "jest",
-    "start": "node index"
+    "start": "node app.js",
+    "test": "jest"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "coverageReporters": [
+      "html"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/witseie-elen4010/2021-012-project.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/witseie-elen4010/2021-012-project/issues"
+  },
+  "homepage": "https://github.com/witseie-elen4010/2021-012-project#readme",
   "dependencies": {
-    "express": "4.17.1"
+    "alert": "^5.0.10",
+    "bootstrap": "^5.0.2",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-flash": "^0.0.2",
+    "express-session": "^1.17.2",
+    "jest": "^27.0.5",
+    "method-override": "^3.0.0",
+    "mssql": "^7.1.3",
+    "socket.io": "^4.1.2"
   }
 }

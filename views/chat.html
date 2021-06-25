@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> My Kudu Buddy Web App</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <p>Group Chat</p>
+    <!--Creating the form send the message -->
+    <form id="chatBox" action="">
+        <input type="text" name="message" id="messageInput" placeholder="Begin typing message" autocomplete="off" />
+        <button type="submit" id="sendMessageButton">Send Message</button>
+    </form>
+
+    <!-- Send COVID screening tool form -->
+    <form action="/CovidScreening" method="get" target="_blank">
+        <button type="submit">Send Face-to-Face Meeting Invite</button>
+    </form>
+
+    <form action="/CovidScreening" method="get" target="_blank">
+        <button type="submit">Send Online Meeting Invite</button>
+    </form>
+
+
+    <!-- Socket.io script-->
+    <script src="/socket.io/socket.io.js"></script>
+    <script type="text/javascript" src="/chat.js"></script>
+</body>
+
+</html>
